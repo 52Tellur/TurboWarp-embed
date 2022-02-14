@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>TurboWarp埋め込みコードジェネレーター|52Tellur/テルル</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>TurboWarpの埋め込みコードジェネレーター</h1>
+            <p>
+                TurboWarpの埋め込みコードを作成します。非公式です。
+            </p>
+        </header>
+        <main>
+        <div class="box">
+            <h2>プロジェクトID</h2>
+            <p>数字のみを入力してください。</p>
+            <input type="text" spellcheck="false" value="382594530" id="URL">
+            <h2>オプション</h2>
+            <p>色々調整することができます。</p>
+            <p>width(横幅)</p>
+            <input type="text" spellcheck="false" value="499" id="width">
+            <p>width(縦幅)</p>
+            <input type="text" spellcheck="false" value="416" id="height">
+            <br>
+            <!--<label><input type="checkbox" id="autoplay">Autoplay(自動再生)</label>-->
+            <br>
+            <input type="button" onclick="showMessage()" value="OK" id="OK-button">
+        </div>
+        <div class="space box">
+            <h2>埋め込みコード</h2>
+            <pre id="embedcode">OKを押すと、埋め込みコードを表示します</pre><!--ここに埋め込みコード-->
+            <h2>プレビュー</h2>
+            <div id="embed">OKを押すとプレビューを表示します</div>
+        </div>
+        </main>
+        <div class="space box">
+            <h2>使い方</h2>
+            <p>
+                TurboWarpの埋め込みコードを生成するジェネレーターです。<br>
+                ScratchやTurboWarpでプロジェクトを開いたときに、URLの後ろに数字があります。その数字がプロジェクトIDです。<br>
+                公式ドキュメントに、どのようなことが出来るのかが詳しく書いてあります。<br>
+                <a href="https://docs.turbowarp.org/embedding">Embedding | TurboWarp Documentation</a> <br>
+                まだ開発段階です。<br><br>
+                制作者: 52Tellur/テルル<br>
+                制作開始: 2022/02/14<br>
+                最終更新日: 2022/02/14<br>
+            </p>
+        </div>
+        <div class="space"></div>
+    </body>
+</html>
