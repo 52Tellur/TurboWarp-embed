@@ -6,7 +6,7 @@ const showMessage = () => {
     const TBheight = document.getElementById("height");
     const inputHeight =TBheight.value;
 
-    const parameters = "\";
+    const parameters = "/";
     
     //ここからオプション
     const autoplay=document.getElementById('autoplay');
