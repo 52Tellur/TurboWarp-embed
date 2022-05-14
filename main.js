@@ -9,9 +9,11 @@ const showMessage = () => {
     let parameters = "?";
     
     //ここからオプション
+    /*よく分からないところはコメントアウト
     let cloud=document.getElementById('cloud');
     if(cloud!="wss://clouddata.turbowarp.org"){
         parameters = parameters + cloud;
+    */
     let autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
         if (parameters == ?){
