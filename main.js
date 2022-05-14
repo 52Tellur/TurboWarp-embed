@@ -6,18 +6,17 @@ const showMessage = () => {
     const TBheight = document.getElementById("height");
     const inputHeight =TBheight.value;
 
-    const parameters = "";
+    const parameters = {};
+    
     //ここからオプション
-    /*
     const autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
         parameters = parameters + "\?autoplay";
     }
-    */
-    //出力するメッセージを生成
+    
+    //出力するメッセージを生成 合体！いったいどうなるんだー
     let output = "\<iframe src=\"https://turbowarp.org/" + inputValue + "/embed" + parameters + "\" width=\"" + inputWidth + "\" height=\"" + inputHeight + "\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" allowfullscreen\>\</iframe\>";
 
-    //合体！いったいどうなるんだー
     //表示
     embed.innerHTML = output;
 
