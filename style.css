@@ -31,7 +31,8 @@ main{}
 }
 
 h1{
-    border-bottom: solid 5px #ff4d4d;
+    background: rgb(255,76,76);
+    background: linear-gradient(90deg, rgba(255,76,76,1) 0%, rgba(255,53,118,1) 43%, rgba(255,165,76,1) 100%);
 }
 h2{
     border: solid #ff4d4d;
