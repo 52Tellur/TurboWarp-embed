@@ -9,7 +9,7 @@ const showMessage = () => {
     const parameters = "/";
     
     //ここからオプション
-    const autoplay=document.getElementById('autoplay');
+    let autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
         parameters = parameters + "?autoplay";
     }
