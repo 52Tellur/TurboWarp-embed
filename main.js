@@ -9,9 +9,16 @@ const showMessage = () => {
     let parameters = "?";
     
     //ここからオプション
+    let cloud=document.getElementById('cloud');
+    if(cloud!="wss://clouddata.turbowarp.org"){
+        parameters = parameters + cloud;
     let autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
-        parameters = parameters + "autoplay";
+        if (parameters == ?){
+            parameters = parameters + "autoplay";
+        } else{
+            parameters = parameters + "&autoplay";
+        }
     }
     
     //出力するメッセージを生成 合体！いったいどうなるんだー
