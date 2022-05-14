@@ -6,12 +6,12 @@ const showMessage = () => {
     const TBheight = document.getElementById("height");
     const inputHeight =TBheight.value;
 
-    const parameters = {};
+    const parameters = "\";
     
     //ここからオプション
     const autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
-        parameters = parameters + "\?autoplay";
+        parameters = parameters + "?autoplay";
     }
     
     //出力するメッセージを生成 合体！いったいどうなるんだー
