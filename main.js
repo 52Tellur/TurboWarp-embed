@@ -10,7 +10,7 @@ const showMessage = () => {
     
     //ここからオプション
     let cloud_host = document.getElementById('cloud_host');
-        parameters = parameters + "cloud_host=" + cloud_host ;
+        parameters = parameters + "cloud_host=" + input.cloud_host ;
     let autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
         if (parameters == "?"){
