@@ -9,8 +9,8 @@ const showMessage = () => {
     let parameters = "?";
     
     //ここからオプション
-    let cloud_host = document.getElementById('cloud_host');
-        parameters = parameters + "cloud_host=" + input.cloud_host ;
+    let cloud = document.getElementById('cloud_host');
+        parameters = parameters + "cloud_host=" + cloud.value ;
     let autoplay=document.getElementById('autoplay');
     if (autoplay.checked){
         if (parameters == "?"){
