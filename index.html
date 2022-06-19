@@ -38,8 +38,8 @@
             <button onclick="copyToClipboard()">コードをコピー</button>
             <script>
             function copyToClipboard() {
-             embedcode = document.getElementById("copyTarget");
-             embedcode.select();
+             code = document.getElementById("copyTarget");
+             code.select();
              document.execCommand("Copy");
              alert("コピーしました");
             }
