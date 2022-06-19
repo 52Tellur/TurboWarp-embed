@@ -35,6 +35,15 @@
         <div class="space box">
             <h2>埋め込みコード</h2>
             <pre id="embedcode">OKを押すと、埋め込みコードを表示します</pre>
+            <button onclick="copyToClipboard()">コードをコピー</button>
+            <script>
+            function copyToClipboard() {
+             code = document.getElementById("copyTarget");
+             code.select();
+             document.execCommand("Copy");
+             alert("コピーしました");
+            }
+            </script>
             <h2>プレビュー</h2>
             <div id="embed">OKを押すとプレビューを表示します</div>
         </div>
